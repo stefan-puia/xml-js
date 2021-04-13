@@ -78,9 +78,6 @@
     "test": "npm run jasmine && npm run jest && npm run test:types",
     "test:types": "tsc -p ./types"
   },
-  "dependencies": {
-    "sax": "git@git.stefanpuia.co.uk:stefanpuia/sax-js.git#34001d50e6"
-  },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
@@ -107,5 +104,8 @@
     "unminified-webpack-plugin": "^1.4.2",
     "watch": "^1.0.1",
     "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "sax": "git+https://git.stefanpuia.co.uk/stefanpuia/sax-js.git"
   }
 }
